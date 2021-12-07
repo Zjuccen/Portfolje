@@ -11,52 +11,43 @@
 
 <body>
 
-    <header>
-            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-            <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <div class="icon-info">
-                    <img src="./img/hero-img.jpg" class="profileimg" alt="">
-                    <p>Nicolai Jac Thomsen</p>
-                </div>
-                <div class="some">
-                    <a href="#"><img src="./img/facebook.png" alt="facebook"></a>
-                    <a href="#"><img src="./img/instagram.png" alt="instagram"></a>
-                    <a href="#"><img src="./img/linkedin.png" alt="linkedin"></a>
-                </div>
-                <br>
-        <nav>
+    <header id="header">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="icon-info">
+                <img src="./img/profil billed.jpg" class="profileimg" alt="">
+                <p>Nicolai Jac Thomsen</p>
+            </div>
+            <div class="some">
+                <a href="#"><img src="./img/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="./img/instagram.png" alt="instagram"></a>
+                <a href="#"><img src="./img/linkedin.png" alt="linkedin"></a>
+            </div>
+            <br>
+            <nav>
                 <div>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Portfolie</a>
-                    <a href="#">Skills</a>
-                    <a href="#">Contakt</a>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#portfolie">Portfolie</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contakt">Contakt</a>
                 </div>
-        </nav>
+            </nav>
     </header>
 
 
-    <section class="home">
+    <section id="home" class="home">
         <div>
             <h1>Nicolai Jac Thomsen</h1>
-            <h3>I'm a Multimediea Student</h3>
+            <h2>I'm a Multimediea Student</h2>
         </div>
 
-        <h2>Home
-            <hr>
-        </h2>
-        <p>Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Soluta, voluptatum voluptatem fuga ducimus
-            quam omnis? Illo, voluptatum. Amet maiores fugiat
-            voluptatibus ipsa consequatur similique rem esse fugit
-            debitis iusto! Nesciunt?
 
-        </p>
     </section>
 
 
-    <section class="about">
+    <section id="about" class="about">
         <h2>About
             <hr>
         </h2>
@@ -64,11 +55,31 @@
             Et laborum maiores omnis esse, dolorum, facilis voluptatibus
             perspiciatis voluptas aliquam
             ab maxime quia nostrum quos sed? Et, nesciunt! Reprehenderit,
-            non nihil?</p>
+            non nihil?
+        </p>
+        <img src="./img/profil billed.jpg" alt="profileimg">
+
+        <div class="facts">
+            <h2>multimedie designer - med speciale inde for kode</h2>
+
+            <ul>
+                <li><b>Birthday:</b> 17. oktober 1995</li>
+                <li><b>Telefon:</b> +45 51255283</li>
+                <li><b>City:</b> Albertslund 2620 - Danmark</li>
+                <li><b>Email:</b> Nico237t@edu.zealand.dk</li>
+            </ul>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Corrupti laudantium magnam odit. Reprehenderit at suscipit enim
+                blanditiis quod, repellat ab quidem.
+                Cum non omnis numquam impedit, in quis eos ducimus!
+            </p>
+        </div>
+
     </section>
 
 
-    <section class="portfolie">
+    <section id="portfolie" class="portfolie">
         <h2>Portfolie
             <hr>
         </h2>
@@ -76,12 +87,15 @@
     </section>
 
 
-    <section class="skills">
+    <section id="skills" class="skills">
+        <h2>Skills
+            <hr>
+        </h2>
 
     </section>
 
 
-    <section class="contakt">
+    <section id="contakt" class="contakt">
 
     </section>
 

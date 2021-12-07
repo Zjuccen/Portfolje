@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 body {
     background-color: #1f242d;
-    line-height: 1.5;
+    line-height: 1.5em;
     list-style: none;
     text-decoration: none;
 }
@@ -15,11 +15,13 @@ body {
 
 
 header {
+    position: fixed;
     display: flex;
     justify-content: flex-end;
     font-size: 1rem;
     right: 0;
     padding: 0.5rem;
+    z-index: 2;
 }
 
 .sidenav {
@@ -33,7 +35,7 @@ header {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  } 
+}
 
 .profileimg {
     margin-left: 25%;
@@ -65,42 +67,46 @@ header {
     color: #ffffff;
     margin-bottom: 1rem;
 }
-  
-  span {
-    color: #2894ff;;
+
+span {
+    color: #2894ff;
+    ;
     margin: 16px;
-  }
-  
-  /* alt inde i navigations linjen */
-  .sidenav a {
+}
+
+/* alt inde i navigations linjen */
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 30px;
     color: #ffffff;
     display: block;
     transition: 0.3s;
-  }
-  
-  /*når navigationslinjen skal lukkes igen*/
-  .sidenav .closebtn {
+}
+
+/*når navigationslinjen skal lukkes igen*/
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
+}
 
 .home {
-    margin-top: 2rem;
-    padding: 1rem 1rem;
+    padding: 10rem 1rem 1rem 1rem;
     background-color: #1f242d;
     color: #ffffff;
 }
 
-.home h3 {
+.home h1 {
+    font-size: 32px;
+}
+
+.home h2 {
     margin: 1.5rem 0;
-    font-size: 16px;
-    height: 100px;
+    font-size: 20px;
+    height: 520px;
 }
 
 .home p {
@@ -110,12 +116,38 @@ header {
 .about {
     padding: 1rem 1rem;
     background-color: #ffffff;
-    height: 25rem;
 }
+
+.about h2 {
+    margin-bottom: 2rem;
+}
+
+.about img {
+    margin: 2rem 0;
+    width: 100%;
+    height: 400px;
+}
+
+.facts ul {
+    margin-left: 1rem;
+    list-style-type: none;
+}
+
+.facts li {
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+.facts li::before {
+    content: "▶ ";
+    color: #2894ff;
+}
+
 
 .portfolie {
     padding: 1rem 1rem;
     height: 100rem;
+    color: #ffffff;
 }
 
 
@@ -123,14 +155,19 @@ header {
 
 
 
+.skills {
+    padding: 1rem 1rem;
+    background-color: #ffffff;
+    height: 100rem;
+}
 
 
-
-hr{
+hr {
     border: solid 2px #2894ff;
     border-radius: 5rem;
     width: 5rem;
     height: 0.2rem;
     font-size: large;
 }
-/* =====Mobile størrelse====== */
+
+/* =====Desktop størrelse====== */
