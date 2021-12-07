@@ -5,44 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolie</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <header>
         <nav id="navigation">
-            <ul>
-                <li> <a href="#">Home</a></li>
-                <li> <a href="#">About</a></li>
-                <li> <a href="#">Portfolie</a></li>
-                <li> <a href="#">Skills</a></li>
-                <li> <a href="#">Contakt</a></li>
-            </ul>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Portfolie</a>
+            <a href="#">Skills</a>
+            <a href="#">Contakt</a>
+        </div>
         </nav>
     </header>
 
-    <section>
+    <section class="velkom">
+
+        <h1>Velkom!</h1>
+
 
     </section>
 
-    <section>
+    <section class="home">
+        <h2>Home<hr></h2>
+        <p>Lorem ipsum dolor sit amet consectetur
+           adipisicing elit. Soluta, voluptatum voluptatem fuga ducimus 
+           quam omnis? Illo, voluptatum. Amet maiores fugiat 
+           voluptatibus ipsa consequatur similique rem esse fugit 
+           debitis iusto! Nesciunt?
+
+        </p>
+    </section>
+
+
+    <section class="about">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Et laborum maiores omnis esse, dolorum, facilis voluptatibus
+             perspiciatis voluptas aliquam 
+            ab maxime quia nostrum quos sed? Et, nesciunt! Reprehenderit, 
+            non nihil?</p>
+    </section>
+
+
+    <section class="portfolie">
 
     </section>
 
-    <section>
+
+    <section class="skills">
 
     </section>
 
-    <section>
+
+    <section class="contakt">
 
     </section>
 
-    <section>
-
-    </section>
 
     <footer>
 
     </footer>
+
+    <script src="main.js"></script>
 
 </body>
 </html>
