@@ -96,7 +96,7 @@ span {
 
 /* ===== Header slut ===== */
 
-/* ===== Home ===== */
+/* ===== Home Start ===== */
 
 .home {
     padding: 10rem 1rem 1rem 1rem;
@@ -118,7 +118,9 @@ span {
     margin-top: 2rem;
 }
 
-/* ===== About ===== */
+/* ===== Home Slut ===== */
+
+/* ===== About Start ===== */
 
 .about {
     padding: 1rem;
@@ -152,8 +154,9 @@ span {
     color: #2894ff;
 }
 
+/* ===== About Slut ===== */
 
-/* ===== Portfolie ===== */
+/* ===== Portfolie Start ===== */
 
 .portfolie {
     padding: 1rem;
@@ -229,6 +232,40 @@ span {
     border: solid 3px #103d6b;
 }
 
+/* ===== Portfolie Slut ===== */
+
+/* ===== Skill section start ===== */
+
+.skills {
+    padding: 1rem;
+    background-color: #ffffff;
+}
+
+.skills h2 {
+    margin-bottom: 2rem;
+}
+
+.container {
+    width: 100%; 
+    background-color: rgb(209, 209, 209);
+  }
+
+ .evner {
+    text-align: right; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    color: #111111;
+    margin: 0.5rem 0;
+  }
+
+  .html {width: 60%; background-color: #ff8c00;} 
+  .css {width: 40%; background-color: #1e90ff;} 
+  .js {width: 5%; background-color: #ffff00;}
+  .adobe {width: 15%; background-color: #006400;}
+  .video {width: 10%; background-color: #3bedf3;}
+
+  /* ===== Skill section Slut ===== */
+
 .contakt {
     color: #ffffff;
     padding: 1rem;
@@ -239,11 +276,6 @@ span {
 
 
 
-.skills {
-    padding: 1rem 1rem;
-    background-color: #ffffff;
-    height: 100rem;
-}
 
 
 hr {
