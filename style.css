@@ -139,6 +139,10 @@ span {
     height: 400px;
 }
 
+.facts {
+    margin-bottom: 2rem;
+}
+
 .facts ul {
     margin-left: 1rem;
     list-style-type: none;
@@ -266,17 +270,48 @@ span {
 
   /* ===== Skill section Slut ===== */
 
+  /* ===== Skill section start ===== */
+
 .contakt {
     color: #ffffff;
     padding: 1rem;
 }
 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
 
+input[type=submit] {
+    background-color: #195796;
+    color: #000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
 
-
-
-
+.contakt-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+      
+label {
+    color: #000;
+}
 
 hr {
     border: solid 2px #2894ff;
@@ -286,5 +321,36 @@ hr {
     font-size: large;
     margin-top: 1rem;
 }
+
+/* ===== Footer Start ===== */
+
+footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #262c37;
+}
+
+footer a {
+    color: #ffffff;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.some-footer {
+    flex-direction: row;
+    margin: 2rem;
+}
+
+.some-footer img {
+    width: 50px;
+    height: 50px;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* ===== Footer Slut ===== */
+
 
 /* =====Desktop størrelse====== */

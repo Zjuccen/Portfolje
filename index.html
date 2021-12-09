@@ -19,12 +19,14 @@
                 <img src="./img/profil billed.jpg" class="profileimg" alt="">
                 <p>Nicolai Jac Thomsen</p>
             </div>
+            <!-- Social Links -->
             <div class="some">
                 <a href="https://www.facebook.com/"><img src="./img/facebook.png" alt="facebook"></a>
                 <a href="https://www.instagram.com/"><img src="./img/instagram.png" alt="instagram"></a>
                 <a href="https://www.linkedin.com/"><img src="./img/linkedin.png" alt="linkedin"></a>
             </div>
             <br>
+            <!-- Navigation -->
             <nav>
                 <div>
                     <a href="#home">Home</a>
@@ -182,10 +184,45 @@
         <h2>Contakt
             <hr>
         </h2>
+
+        <div class="contakt-container">
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your First Name..">
+                
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your Last Name..">
+
+                <label for="Country">Country</label>
+                <select name="country" id="country">
+                    <option value="Danmark">Danmark</option>
+                    <option value="England">England</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Norway">Norway</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="Usa">Usa</option>
+                </select>
+
+                <label for="Subject">Subject</label>
+                <textarea name="subject" id="subject" placeholder="Write your subject here.." cols="30" rows="10"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </section>
 
 
     <footer>
+
+        <div class="some-footer">
+            <img src="./img/facebook.png" alt="">
+            <img src="./img/instagram.png" alt="">
+            <img src="./img/linkedin.png" alt="">
+        </div>
+
+        <a href="mailto:Nico237t@edu.zealand.dk">Nico237t@edu.zealand.dk</a>
+        <a href="tel:+4551255283">+45 51255283</a>
+       
 
     </footer>
 
