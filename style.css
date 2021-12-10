@@ -164,7 +164,6 @@ span {
 
 .portfolie {
     padding: 1rem;
-
     color: #ffffff;
 }
 
@@ -250,34 +249,55 @@ span {
 }
 
 .container {
-    width: 100%; 
+    width: 100%;
     background-color: rgb(209, 209, 209);
-  }
+}
 
- .evner {
-    text-align: right; 
-    padding-top: 5px; 
-    padding-bottom: 5px; 
+.evner {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: #111111;
     margin: 0.5rem 0;
-  }
+}
 
-  .html {width: 60%; background-color: #ff8c00;} 
-  .css {width: 40%; background-color: #1e90ff;} 
-  .js {width: 5%; background-color: #ffff00;}
-  .adobe {width: 15%; background-color: #006400;}
-  .video {width: 10%; background-color: #3bedf3;}
+.html {
+    width: 60%;
+    background-color: #ff8c00;
+}
 
-  /* ===== Skill section Slut ===== */
+.css {
+    width: 40%;
+    background-color: #1e90ff;
+}
 
-  /* ===== Skill section start ===== */
+.js {
+    width: 5%;
+    background-color: #ffff00;
+}
+
+.adobe {
+    width: 15%;
+    background-color: #006400;
+}
+
+.video {
+    width: 10%;
+    background-color: #3bedf3;
+}
+
+/* ===== Skill section Slut ===== */
+
+/* ===== Skill section start ===== */
 
 .contakt {
     color: #ffffff;
     padding: 1rem;
 }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 0.8rem;
     border: 2px solid #ccc;
@@ -299,7 +319,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #45a049;
-  }
+}
 
 .contakt-container {
     margin-top: 2rem;
@@ -308,7 +328,7 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
-      
+
 label {
     color: #000;
 }
@@ -352,5 +372,92 @@ footer a {
 
 /* ===== Footer Slut ===== */
 
-
 /* =====Desktop størrelse====== */
+
+@media screen and (min-width: 768px) {
+
+    h2 {
+        font-size: 32px;
+        line-height: 1.2em;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    span {
+        display: none;
+    }
+
+    .home {
+        margin-bottom: 11rem;
+        margin-left: 10rem;
+    }
+
+    .home h1 {
+        font-size: 64px;
+        padding-bottom: 2rem;
+    }
+
+    .about-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about div {
+        width: 45%;
+    }
+
+    .about img {
+        width: 45%;
+    }
+
+    .about-text {
+        max-width: 45%;
+    }
+
+    .facts {
+        max-width: 50%;
+        grid-row: 2;
+
+    }
+
+
+    .portfolie h3 {
+        margin-top: 2rem;
+    }
+
+    .portfolie p {
+        font-size: 18px;
+    }
+
+    .portfolie-content {
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .portfolie-border {
+        width: 48%;
+    }
+
+
+    .skill-container {
+        padding: 0 8rem;
+        margin-bottom: 2rem;
+    }
+
+    .contakt-container {
+        margin: 3rem 6rem;
+    }
+
+
+
+
+
+}
