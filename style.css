@@ -475,7 +475,6 @@ footer a {
         }
     }
 
-    }
 
     .home h2 {
         margin-top: 5rem;
@@ -578,7 +577,14 @@ footer a {
     /* ===== Sidenav Desktop Start ===== */
 
     .sidenav-desktop {
-        z-index: 9999;
+        z-index: 900;
+        text-transform: uppercase;
+        display: flex;
+        position: relative;
+    }
+
+    .sidenav-desktop a:hover {
+        color: #ffffff;
     }
 
     .sidenav-desktop img {
@@ -589,12 +595,6 @@ footer a {
     .sidenav-desktop p {
         color: #ffffff;
         margin-left: 1.7rem;
-    }
-
-    .sidenav-desktop {
-        text-transform: uppercase;
-        display: flex;
-        position: relative;
     }
 
     .sidenav-desktop .nav-cont {
@@ -622,10 +622,6 @@ footer a {
         margin-top: 2rem;
         justify-content: center;
         align-items: center;
-    }
-
-    .sidenav-desktop a:hover {
-        color: #ffffff;
     }
 
     .center {
