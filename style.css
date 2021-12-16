@@ -119,7 +119,7 @@ span {
 
 .home img {
     width: 100%;
-    height: 750px;
+    height: 620px;
 }
 
 .home h1 {
@@ -139,7 +139,7 @@ span {
 
 .top-left {
     position: absolute;
-    top: 15rem;
+    top: 10rem;
     left: .5rem;
 }
 
@@ -163,7 +163,7 @@ span {
 }
 
 .facts {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .facts ul {
@@ -179,6 +179,21 @@ span {
 .facts li::before {
     content: "▶ ";
     color: #2894ff;
+}
+
+.facts p{
+    margin-bottom: 2rem;
+}
+
+.facts a {
+    width: 20%;
+    color: #000;
+    text-decoration: none;
+    background-color: #2894ff;
+    padding: .5rem 2rem;
+    padding-top: -1rem;
+    border: solid 1px #000;
+    border-radius: 10px;
 }
 
 /* ===== About Slut ===== */
@@ -198,61 +213,20 @@ span {
     width: 100%;
 }
 
-.rumrejse {
+.rumrejse .ballet .linedance .gocycle {
     margin-bottom: 2rem;
 }
 
-.rumrejse p {
+.rumrejse .ballet .linedance .gocycle, p {
     margin: 0 1rem;
 }
 
-.rumrejse a {
+.rumrejse .ballet .linedance .gocycle, a {
     margin: 1rem 0;
     display: flex;
     justify-content: center;
 }
 
-.ballet {
-    margin-bottom: 2rem;
-}
-
-.ballet p {
-    margin: 0 1rem;
-}
-
-.ballet a {
-    margin: 1rem 0;
-    display: flex;
-    justify-content: center;
-}
-
-.linedance {
-    margin-bottom: 2rem;
-}
-
-.linedance p {
-    margin: 0 1rem;
-}
-
-.linedance a {
-    margin: 1rem 0;
-    display: flex;
-    justify-content: center;
-}
-
-.gocycle {
-    margin-bottom: 2rem;
-}
-
-.gocycle p {
-    margin: 0 1rem;
-}
-
-.gocycle a {
-    margin: 1rem 0;
-    display: flex;
-    justify-content: center;
-}
 
 .portfolie-border {
     border: solid 3px #103d6b;
@@ -379,6 +353,7 @@ footer a {
 }
 
 .some-footer {
+    display: flex;
     flex-direction: row;
     margin: 2rem;
 }
@@ -387,7 +362,7 @@ footer a {
     width: 50px;
     height: 50px;
     justify-content: space-between;
-    margin-left: 1rem;
+    margin-left: 2rem;
     margin-right: 1rem;
 }
 
@@ -448,133 +423,6 @@ footer a {
         width: calc(100% - 250px);
         margin-left: 250px;
     }
-
-    /* ===== Home start ===== */
-
-    .home {
-        text-align: center;
-    }
-
-    .home img {
-        height: 935px;
-    }
-
-    .home h1 {
-        font-size: 50px;
-        z-index: -1;
-        line-height: 1em;
-
-        animation: heading;
-        animation-duration: 3s;
-        animation-fill-mode: forwards;
-    }
-    
-    @keyframes heading {
-        0% {
-            transform: translateY(-500px);
-        }
-    
-        100% {
-            transform: translateY(0px);
-        }
-    }
-
-    .home h2 {
-        margin-top: 5rem;
-        z-index: -1;
-
-        animation: top-text;
-        animation-duration: 3s;
-        animation-fill-mode: forwards;
-    }
-    
-    @keyframes top-text {
-        0% {
-            transform: translateX(-1500px);
-        }
-    
-        100% {
-            transform: translateX(0);
-        }
-    }
-    
-
-    .top-left {
-        position: absolute;
-        top: 14rem;
-        left: 8rem;
-       
-    }
-
-    /* ===== Home Slut ===== */
-
-    /* ===== About Section Start ===== */
-
-    .about {
-       height: 50rem;
-    }
-
-    .about-content {
-        display: flex;
-        float: left;
-        margin: 0 2rem;
-        
-    }
-
-    .about img {
-        width: 65%;
-    }
-
-    .about-text {
-        padding-right: 2rem;
-    }
-    
-    /* ===== About section Slut ===== */
-
-    /* ===== Portfolie Start ===== */
-
-    .portfolie h3 {
-        margin-top: 2rem;
-    }
-
-    .portfolie p {
-        font-size: 18px;
-    }
-
-    .portfolie a {
-        font-size: 20px;
-    }
-
-    .portfolie-content {
-        margin-top: 2rem;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        gap: 1rem;
-    }
-
-    .portfolie-border {
-        width: 48%;
-    }
-
-     /* ===== Portfolie Start ===== */
-
-     /* ===== Skills Start ===== */
-
-    .skill-container {
-        
-        margin: 3rem 6rem;
-    }
-
-     /* ===== Skills Start ===== */
-
-     /* ===== Contact Start ===== */
-
-    .contakt-container {
-        margin: 3rem 6rem;
-    }
-
-    /* ===== Contact Slut ===== */
 
     /* ===== Sidenav Desktop Start ===== */
 
@@ -649,8 +497,144 @@ footer a {
         max-width: 30px;
     }
 
-
     /* ===== Sidenav Desktop Slut ===== */
+
+
+    /* ===== Home start ===== */
+
+    .home {
+        text-align: center;
+    }
+
+    .home img {
+        height: 525px;
+    }
+
+    .home h1 {
+        font-size: 50px;
+        z-index: 300;
+        line-height: 1em;
+
+        animation: heading;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes heading {
+        0% {
+            transform: translateY(-500px);
+        }
+    
+        100% {
+            transform: translateY(0px);
+        }
+    }
+
+    .home h2 {
+        margin-top: 5rem;
+        z-index: -1;
+
+        animation: top-text;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes top-text {
+        0% {
+            transform: translateX(-1500px);
+        }
+    
+        100% {
+            transform: translateX(0);
+        }
+    }
+    
+
+    .top-left {
+        position: absolute;
+        top: 10rem;
+        left: 7rem;
+       
+    }
+
+    /* ===== Home Slut ===== */
+
+    /* ===== About Section Start ===== */
+
+    .about {
+       height: 52rem;
+    }
+
+    .about-content {
+        display: flex;
+        margin: 0 2rem;
+        
+    }
+
+    .about div {
+        width: 95%;
+    }
+
+    .about img {
+        width: 65%;
+    }
+    .about p {
+        margin-bottom: .5rem;
+    }
+    .about-text {
+        padding-right: 2rem;
+    }
+    .facts p{
+        margin-bottom: 2rem;
+    }
+    
+    /* ===== About section Slut ===== */
+
+    /* ===== Portfolie Start ===== */
+
+    .portfolie h3 {
+        margin-top: 2rem;
+    }
+
+    .portfolie p {
+        font-size: 16px;
+    }
+
+    .portfolie a {
+        font-size: 16px;
+        bottom: 0;
+    }
+
+    .portfolie-content {
+        margin-top: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 1rem;
+    }
+
+    .portfolie-border {
+        width: 48%;
+    }
+
+     /* ===== Portfolie Start ===== */
+
+     /* ===== Skills Start ===== */
+
+    .skill-container {
+        
+        margin: 3rem 6rem;
+    }
+
+     /* ===== Skills Start ===== */
+
+     /* ===== Contact Start ===== */
+
+    .contakt-container {
+        margin: 3rem 6rem;
+    }
+
+    /* ===== Contact Slut ===== */
 
     footer {
         margin-left: 15rem;
