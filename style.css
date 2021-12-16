@@ -25,6 +25,14 @@ hr {
     margin-top: 0.5rem;
 }
 
+span {
+    color: #2894ff;
+    margin: 16px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+
 /* ===== Headerstart ===== */
 
 header {
@@ -44,10 +52,17 @@ header {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #15181f;
+    background-color: #262c37;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 20px;
+
+}
+
+.profileimg, .some {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .profileimg {
@@ -58,44 +73,27 @@ header {
     border: solid 10px #262c37;
 }
 
-.some {
-    display: flex;
-    margin-left: 10%;
-    padding-right: 10px;
-}
-
 .some a {
     max-width: 200px;
 }
 
 .some img {
-    display: block;
-    width: 50px;
-}
-
-.sidenav p {
-    font-size: 24px;
-    text-align: center;
-    color: #ffffff;
-    margin-bottom: 1rem;
-}
-
-span {
-    color: #2894ff;
-    margin: 16px;
+    width: 55px;
+    margin: 0 1rem;
 }
 
 /* alt inde i navigations linjen */
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    
     text-decoration: none;
-    font-size: 35px;
+    font-size: 40px;
     color: #ffffff;
-    display: block;
+    display: flex;
     transition: 0.3s;
     line-height: 1.2em;
+    align-items: center;
+    justify-content: center;
 }
-
 
 /*når navigationslinjen skal lukkes igen*/
 .sidenav .closebtn {
@@ -104,6 +102,13 @@ span {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+}
+
+
+.sidenav p {
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
 }
 
 /* ===== Header slut ===== */
@@ -155,7 +160,7 @@ span {
 .about img {
     margin: 2rem 0;
     width: 100%;
-    height: 400px;
+    height: 25%
 }
 
 .about h2 {
@@ -189,11 +194,14 @@ span {
     width: 20%;
     color: #000;
     text-decoration: none;
-    background-color: #2894ff;
+    background-color: #195796;;
     padding: .5rem 2rem;
     padding-top: -1rem;
     border: solid 1px #000;
     border-radius: 10px;
+}
+.facts a:hover {
+    background-color: #1e90ff;
 }
 
 /* ===== About Slut ===== */
@@ -213,7 +221,7 @@ span {
     width: 100%;
 }
 
-.rumrejse .ballet .linedance .gocycle {
+.rumrejse, .ballet, .linedance, .gocycle {
     margin-bottom: 2rem;
 }
 
@@ -355,7 +363,8 @@ footer a {
 .some-footer {
     display: flex;
     flex-direction: row;
-    margin: 2rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .some-footer img {
@@ -379,9 +388,63 @@ footer a {
 
 /* =====Mobil størrelse Slut====== */
 
-/* =====Desktop størrelse====== */
+/* =====ipad størrelse====== */
 
 @media screen and (min-width: 768px) {
+
+    span {
+        font-size: 40px;
+    }
+
+    .sidenav .closebtn {
+        font-size: 50px;
+    }
+
+    .sidenav-desktop {
+        display: none;
+    }
+
+    .profileimg {
+        height: 400px;
+    }
+    
+    .some a {
+        max-width: 200px;
+    }
+    
+    .some img {
+        width: 80px;
+        margin: 0 2rem;
+    }
+    
+    .sidenav a {
+        font-size: 40px;
+    }
+    
+    .sidenav p {
+        font-size: 30px;
+    }
+
+    .top-left {
+        margin-left: 10%;
+        margin-top: 8%;
+    }
+
+    .profileimg {
+        height: 50%;
+    }
+
+    .about img {
+        width: 400px;
+        
+    }
+}
+
+/* ===== Ipad Størrelse Slut ===== */
+
+/* ===== Laptop Størrelse start ===== */
+
+@media screen and (min-width:1020px) {
 
     ::-webkit-scrollbar {
         width: 10px;
@@ -549,12 +612,9 @@ footer a {
         }
     }
     
-
     .top-left {
         position: absolute;
-        top: 10rem;
-        left: 7rem;
-       
+        margin-top: -1rem;
     }
 
     /* ===== Home Slut ===== */
@@ -577,6 +637,8 @@ footer a {
 
     .about img {
         width: 65%;
+        height: 50%;
+        margin-bottom: 1rem;
     }
     .about p {
         margin-bottom: .5rem;
@@ -638,8 +700,8 @@ footer a {
 
     footer {
         margin-left: 15rem;
+        justify-content: center;
+        align-items: center ;
     }
-
 }
-
-/* =====Desktop størrelse Slut====== */
+/* =====Laptop størrelse Slut====== */
