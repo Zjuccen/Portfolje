@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background-color: #1f242d;
     line-height: 1.5em;
@@ -85,7 +89,7 @@ span {
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 35px;
     color: #ffffff;
     display: block;
     transition: 0.3s;
@@ -441,6 +445,7 @@ footer a {
     }
 
     section {
+        width: calc(100% - 250px);
         margin-left: 250px;
     }
 
@@ -455,7 +460,7 @@ footer a {
     }
 
     .home h1 {
-        font-size: 64px;
+        font-size: 50px;
         z-index: -1;
         line-height: 1em;
 
@@ -496,10 +501,9 @@ footer a {
 
     .top-left {
         position: absolute;
-        top: 15px;
-        left: 16px;
-        margin-top: 20%;
-        margin-left: 15%;
+        top: 14rem;
+        left: 8rem;
+       
     }
 
     /* ===== Home Slut ===== */
@@ -649,7 +653,7 @@ footer a {
     /* ===== Sidenav Desktop Slut ===== */
 
     footer {
-        margin-left: 175px;
+        margin-left: 15rem;
     }
 
 }
