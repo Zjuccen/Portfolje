@@ -68,7 +68,7 @@ header {
 .profileimg {
     margin-left: 25%;
     width: 50%;
-    height: 200px;
+    height: 250px;
     border-radius: 100%;
     border: solid 10px #262c37;
 }
@@ -86,11 +86,11 @@ header {
 .sidenav a {
     
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
     color: #ffffff;
     display: flex;
     transition: 0.3s;
-    line-height: 1.2em;
+    line-height: 2em;
     align-items: center;
     justify-content: center;
 }
@@ -444,7 +444,7 @@ footer a {
 
 /* ===== Laptop Størrelse start ===== */
 
-@media screen and (min-width:1020px) {
+@media screen and (min-width:992px) {
 
     ::-webkit-scrollbar {
         width: 10px;
@@ -703,5 +703,17 @@ footer a {
         justify-content: center;
         align-items: center ;
     }
+
+   
 }
+
 /* =====Laptop størrelse Slut====== */
+
+@media screen and (min-width:1020px)  {
+        
+    .about img {
+        width: 20rem;
+        height: 25rem;
+        margin-left: 1rem;
+    }
+}
